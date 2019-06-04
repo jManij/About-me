@@ -1,0 +1,20 @@
+#jupiter {
+  background-color:orange;
+  color:white;
+}
+
+.mars {
+  background-color: red;
+  color:black;
+}
+
+h1 {
+  border: yellow 7px;
+  color: coral;
+  border-radius: 20px;
+}
+
+p {
+
+  color: red;
+}
