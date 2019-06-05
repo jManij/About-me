@@ -1,20 +1,18 @@
-#jupiter {
-  background-color:orange;
+#others {
+  background-color:white;
+  color:green;
+}
+#funfact {
+  background-color:yellowgreen;
   color:white;
 }
 
-.mars {
-  background-color: red;
+.intro {
+  background-color:palevioletred;
   color:black;
 }
 
-h1 {
-  border: yellow 7px;
+h2 {
+  border: saddlebrown 3px;
   color: coral;
-  border-radius: 20px;
-}
-
-p {
-
-  color: red;
 }
