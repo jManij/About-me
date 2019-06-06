@@ -3,16 +3,22 @@
   color:green;
 }
 #funfact {
-  background-color:yellowgreen;
+  background-color:lightcoral;
   color:white;
 }
 
 .intro {
-  background-color:palevioletred;
+  background-color:darkkhaki;
   color:black;
 }
 
 h2 {
   border: saddlebrown 3px;
   color: coral;
+}
+
+ul {
+  background-color: azure;
+  list-style: none;
+  font-size: 1em;
 }
