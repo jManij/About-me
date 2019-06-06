@@ -81,7 +81,6 @@ guessFive(fifthGuess);
 
 //Declaration
 var randomNumber = Math.floor(Math.random() * 50) + 1; //Generate random numbers from 1-50
-var correct = 0; //correct to tally the number of correct answers
 var totalAttempts = 4; //total attempts allowed to the user
 var found = false; //boolean value to check the status of the correct answer
 var output = 'Guess the number I am thinking in between 1-50'; //message to the user
@@ -135,7 +134,7 @@ var guessState = function(totalAttempts){
         visitedStates.splice(k,1); //remove the correct response
         found = true;
         correct++;
-        output = 'You got ' + correct + ' out of 2 questions correct. Yes, I have visited '+ seventhResponse + '. Here are the other states I have visited: \n';
+        output = 'You got ' + correct + ' out of 7 questions correct. Yes, I have visited '+ seventhResponse + '. Here are the other states I have visited: \n';
 
         //Iterate over array to get the name of the rest of the states
         for (var l = 0; l < visitedStates.length; l++) {
@@ -158,7 +157,7 @@ var guessState = function(totalAttempts){
 
   //If the user has used all the attempts and did not get anything right
   if (!found) {
-    output = 'You got '+ correct + ' out of 2 questions. These are the states I have visited: \n';
+    output = 'You got '+ correct + ' out of 7 questions. These are the states I have visited: \n';
     for (var iterator = 0; iterator < visitedStates.length; iterator++) {
       output += visitedStates[iterator] + '\n';
     }
