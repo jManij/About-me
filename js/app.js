@@ -93,7 +93,7 @@ console.log('Random number: ' + randomNumber);
 var guessNum = function(totalAttempts){
   for (var i = 0; i < totalAttempts; i++) {
     sixthResponse = parseInt(prompt(output));
-  
+
     if (sixthResponse === randomNumber) {
       console.log(sixthResponse);
       alert('Correct!!');
